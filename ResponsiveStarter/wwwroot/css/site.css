@@ -117,3 +117,14 @@ aside { border: 5px solid gray; }
         width: 100%
     }
 }
+
+.flex-columns{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (maxwidth: 490px){
+    .flex-columns{
+        flex-direction: column;
+    }
+}
