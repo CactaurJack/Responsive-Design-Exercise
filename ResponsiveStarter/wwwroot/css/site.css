@@ -97,3 +97,23 @@ aside { border: 5px solid gray; }
 @media(max-width: 490px){
     aside{border: 2px dotted gray;}
 }
+
+.float-columns > div{
+    float: left;
+    width: 33%
+}
+
+.clearfix{
+    clear:both;
+}
+
+@media(max-width: 490px) {
+    aside {
+        border: 2px dotted gray;
+    }
+
+    .float-columns > div {
+        float: none;
+        width: 100%
+    }
+}
