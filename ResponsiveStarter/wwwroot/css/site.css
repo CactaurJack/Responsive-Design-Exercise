@@ -87,3 +87,13 @@ img {
 @media (orientation: portrait){
     h1 {color: orange;}
 }
+
+aside { border: 5px solid gray; }
+
+@media (max-width: 750px){
+    aside {border: 3px dashed gray;}
+}
+
+@media(max-width: 490px){
+    aside{border: 2px dotted gray;}
+}
